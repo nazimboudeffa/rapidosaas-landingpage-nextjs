@@ -1,6 +1,11 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Home() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div id="top" className="min-h-screen bg-linear-to-br from-slate-50 via-white to-slate-100 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       {/* Navbar */}
@@ -19,22 +24,24 @@ export default function Home() {
                 Rapido SaaS
               </span>
             </a>
-            <div className="flex items-center gap-4">
+            
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center gap-4">
               <a
                 href="#features"
-                className="hidden sm:inline-block text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"
+                className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"
               >
                 Features
               </a>
               <a
                 href="#pricing"
-                className="hidden sm:inline-block text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"
+                className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"
               >
                 Pricing
               </a>
               <a
                 href="#docs"
-                className="hidden sm:inline-block text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"
+                className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"
               >
                 Docs
               </a>
@@ -47,7 +54,61 @@ export default function Home() {
                 Want some Help?
               </a>
             </div>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="md:hidden p-2 text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
+            </button>
           </div>
+
+          {/* Mobile Menu */}
+          {mobileMenuOpen && (
+            <div className="md:hidden py-4 border-t border-slate-200 dark:border-slate-800">
+              <div className="flex flex-col gap-4">
+                <a
+                  href="#features"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors py-2"
+                >
+                  Features
+                </a>
+                <a
+                  href="#pricing"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors py-2"
+                >
+                  Pricing
+                </a>
+                <a
+                  href="#docs"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors py-2"
+                >
+                  Docs
+                </a>
+                <a
+                  href="https://calendar.app.google/2hRoLPEAMBY4AVSq8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-2 bg-green-500 text-white rounded-full font-medium hover:shadow-lg transition-all text-center"
+                >
+                  Want some Help?
+                </a>
+              </div>
+            </div>
+          )}
         </div>
       </nav>
 
