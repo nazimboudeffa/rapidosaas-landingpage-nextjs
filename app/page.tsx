@@ -88,12 +88,6 @@ export default function Home() {
                 >
                   Start Building Now
                 </a>
-                <a
-                  href="#demo"
-                  className="px-8 py-4 bg-white dark:bg-slate-800 text-slate-900 dark:text-white rounded-full font-semibold text-lg border-2 border-slate-200 dark:border-slate-700 hover:border-blue-600 dark:hover:border-blue-500 hover:shadow-lg transition-all text-center"
-                >
-                  View Demo
-                </a>
               </div>
 
               <div className="flex items-center gap-8 pt-4">
