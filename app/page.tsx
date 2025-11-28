@@ -189,8 +189,12 @@ export default function Home() {
                   className="rounded-2xl w-full h-auto"
                   priority
                 />
-                <div className="absolute -bottom-6 -right-6 bg-linear-to-r from-green-500 to-emerald-500 text-white px-6 py-3 rounded-full shadow-xl font-semibold">
-                  ✓ Production Ready
+                <div className="absolute -bottom-6 -right-6 flex items-center gap-2 px-3 py-1.5 rounded-full bg-green-100 dark:bg-green-900/30 border border-green-300 dark:border-green-700 text-green-700 dark:text-green-300 text-sm font-medium shadow-sm">
+                  <svg className="w-4 h-4" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" fill="#10b981" />
+                    <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                  </svg>
+                  <span>Production Ready</span>
                 </div>
               </div>
             </div>
@@ -233,75 +237,183 @@ export default function Home() {
                 </thead>
                 <tbody>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Responsive React components</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>Responsive React components</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">1 hour</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Header with NavBar</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>Header with NavBar</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">30 minutes</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Footer</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>Footer</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">30 minutes</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ MobileMenu</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>MobileMenu</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">30 minutes</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Landing page with Hero, Problems, Features</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>Landing page with Hero, Problems, Features</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">2 hours</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Pricing + FAQ</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>Pricing + FAQ</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">1 hour</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ About</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>About</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">30 minutes</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ ToS and Conditions</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>ToS and Conditions</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">30 minutes</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Login with magic link NextAuth</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>Login with magic link NextAuth</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">2 hours</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Custom signin page</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>Custom signin page</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">1 hour</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Dashboard</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>Dashboard</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">4 hours</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ TailWind with ShadcnUI or DaisyUI</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>TailWind with ShadcnUI or DaisyUI</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">2 hours</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Darkmode</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>Darkmode</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">1 hour</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Stripe payment</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>Stripe payment</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">2 hours</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ MongoDB with common usage</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>MongoDB with common usage</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">2 hours</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ MailBox with mail-in-a-box</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>MailBox with mail-in-a-box</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">2 hours</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Deployment with DokPloy</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>Deployment with DokPloy</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">1 hour</td>
                   </tr>
                   <tr className="hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Optimisation of the SEO</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                      <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#10b981" />
+                        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                      </svg>
+                      <span>Optimisation of the SEO</span>
+                    </td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">2 hours</td>
                   </tr>
                 </tbody>
@@ -348,7 +460,7 @@ export default function Home() {
             <div className="shadow-lg dark:border dark:border-slate-800 rounded-3xl flex flex-col items-center p-8 min-w-[350px] bg-white dark:bg-slate-800 hover:shadow-2xl transition-shadow">
               <div className="text-sm flex flex-row gap-2 items-center text-slate-700 dark:text-slate-300">
                 <svg className="w-5 h-5 text-green-500 dark:text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <span className="font-semibold">Starter</span>
               </div>
@@ -360,12 +472,12 @@ export default function Home() {
               </div>
               <div className="mt-6 w-full">
                 <a
-                  href="https://github.com/rapidosaas"
+                  href="https://fr.tipeee.com/nazimboudeffa"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full px-6 py-3 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-full font-semibold text-center hover:bg-slate-700 dark:hover:bg-slate-200 transition-colors"
+                  className="block w-full px-6 py-3 bg-linear-to-r from-blue-600 to-purple-600 text-white rounded-full font-semibold text-center hover:shadow-2xl hover:scale-105 transition-all"
                 >
-                  Get Started
+                  Donate
                 </a>
               </div>
               <div className="mt-8 w-full text-sm flex flex-col gap-3">
@@ -373,7 +485,7 @@ export default function Home() {
                   <svg className="w-5 h-5 text-green-400 dark:text-green-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Free access to most of the services</span>
+                  <span>Access to most of the services</span>
                 </div>
               </div>
             </div>
@@ -447,26 +559,30 @@ export default function Home() {
               </p>
               <ul className="space-y-3 text-slate-700 dark:text-slate-300">
                 <li className="flex items-start gap-3">
-                  <svg className="w-6 h-6 text-blue-600 dark:text-blue-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <svg className="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" fill="#10b981" />
+                    <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                   </svg>
                   <span>Step-by-step setup guides</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <svg className="w-6 h-6 text-blue-600 dark:text-blue-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <svg className="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" fill="#10b981" />
+                    <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                   </svg>
                   <span>API references and examples</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <svg className="w-6 h-6 text-blue-600 dark:text-blue-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <svg className="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" fill="#10b981" />
+                    <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                   </svg>
                   <span>Best practices and tips</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <svg className="w-6 h-6 text-blue-600 dark:text-blue-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <svg className="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" fill="#10b981" />
+                    <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                   </svg>
                   <span>Deployment and production guides</span>
                 </li>
