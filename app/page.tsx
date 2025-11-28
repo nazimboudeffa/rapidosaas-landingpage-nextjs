@@ -79,7 +79,7 @@ export default function Home() {
                 Stop wasting months on boilerplate code. Rapido SaaS gives you everything you need to build and launch your SaaS product—authentication, payments, database, and more.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 items-center">
                 <a
                   href="https://github.com/rapidosaas"
                   target="_blank"
@@ -87,6 +87,14 @@ export default function Home() {
                   className="px-8 py-4 bg-linear-to-r from-blue-600 to-purple-600 text-white rounded-full font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all text-center"
                 >
                   Start Building Now
+                </a>
+                <a
+                  href="https://neofreelance.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 font-medium underline underline-offset-4 transition-colors"
+                >
+                  Demo →  neoFreelance.com
                 </a>
               </div>
 
@@ -98,7 +106,7 @@ export default function Home() {
                 <div className="w-px h-12 bg-slate-300 dark:bg-slate-700"></div>
                 <div className="flex flex-col">
                   <div className="text-3xl font-bold text-slate-900 dark:text-white">0$</div>
-                  <div className="text-sm text-slate-600 dark:text-slate-400">Free</div>
+                  <div className="text-sm text-slate-600 dark:text-slate-400">Only VPS+Domain</div>
                 </div>
                 <div className="w-px h-12 bg-slate-300 dark:bg-slate-700"></div>
                 <div className="flex flex-col">
