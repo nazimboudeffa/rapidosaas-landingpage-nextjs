@@ -39,7 +39,7 @@ export default function Home() {
                 Docs
               </a>
               <a
-                href="https://github.com/rapidosaas"
+                href="https://calendar.app.google/2hRoLPEAMBY4AVSq8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 bg-green-500 text-white rounded-full font-medium hover:shadow-lg hover:scale-105 transition-all"
@@ -63,7 +63,7 @@ export default function Home() {
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
                 </span>
                 <span className="text-sm font-medium text-blue-700 dark:text-blue-300">
-                  Ship Your SaaS Fast
+                  Ship Your SaaS Faster
                 </span>
               </div>
 
@@ -208,7 +208,7 @@ export default function Home() {
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">4 hours</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ TailWind with daisyui</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ TailWind with ShadcnUI or DaisyUI</td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">2 hours</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
@@ -228,7 +228,7 @@ export default function Home() {
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">2 hours</td>
                   </tr>
                   <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
-                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Deployment with Coolify</td>
+                    <td className="px-6 py-4 text-slate-800 dark:text-slate-200">✅ Deployment with DokPloy</td>
                     <td className="px-6 py-4 text-slate-600 dark:text-slate-400 font-medium">1 hour</td>
                   </tr>
                   <tr className="hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors">
